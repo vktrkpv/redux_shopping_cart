@@ -6,7 +6,6 @@ import { useDispatch } from "react-redux";
 const CartItem = ({ cartItems, index }) => {
     const clothes = dataStoreCloth.find((item) => item.id === cartItems.clothID);
     const dispatch = useDispatch();
-  console.log(cartItems);
 
 
   return (
